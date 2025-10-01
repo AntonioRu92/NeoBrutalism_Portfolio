@@ -121,7 +121,7 @@ const Home: React.FC = () => {
                 {technologies.map((tech, index) => (
                   <span
                     key={index}
-                    className="neo-card neo-card-yellow px-6 py-3 text-black neo-mono font-bold hover:neo-shake cursor-pointer"
+                    className="neo-card bg-white px-6 py-3 text-black neo-mono font-bold hover:neo-shake cursor-pointer"
                   >
                     {tech}
                   </span>
